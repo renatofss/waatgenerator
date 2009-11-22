@@ -1,0 +1,31 @@
+package br.com.ceut.waat.interfaces.rules;
+
+public class HTMLComponentRadioButton extends HTMLComponent {
+
+	private AttributeReference attributeReference;
+	private String writeOrReadOnly;
+
+	public HTMLComponentRadioButton(String name,
+			AttributeReference attributeReference, String writeOrReadOnly) {
+		super(name);
+		this.attributeReference = attributeReference;
+		this.writeOrReadOnly = writeOrReadOnly;
+	}
+
+	public AttributeReference getAttributeReference() {
+		return attributeReference;
+	}
+
+	public void setAttributeReference(AttributeReference attributeReference) {
+		this.attributeReference = attributeReference;
+	}
+
+	public String getWriteOrReadOnly() {
+		return writeOrReadOnly;
+	}
+
+	public void setWriteOrReadOnly(String writeOrReadOnly) {
+		this.writeOrReadOnly = writeOrReadOnly;
+	}
+
+}
