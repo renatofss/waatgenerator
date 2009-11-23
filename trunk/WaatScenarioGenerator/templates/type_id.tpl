@@ -1,0 +1,1 @@
+browser.type("id=TYPE_ID", "TYPE_VALUE");

@@ -1,0 +1,1 @@
+browser.check("id=CHECK_ID");

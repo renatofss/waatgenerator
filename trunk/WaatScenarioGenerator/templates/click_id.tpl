@@ -1,0 +1,1 @@
+browser.click("id=CLICK_ID_ELEMENTID");
