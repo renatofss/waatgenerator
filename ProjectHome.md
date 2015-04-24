@@ -1,0 +1,1 @@
+An Eclipse plugin which allows generation of Selenium functional tests and interface prototypes, based on requirements specifications.
